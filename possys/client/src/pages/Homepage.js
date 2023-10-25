@@ -13,7 +13,7 @@ const Homepage = () => {
     const getAllItems = async () => {
 
       try {
-        const { data } = await axios.get("/api/items/get-item");
+        const { data } = await axios.get("http://localhost:5000/api/items/get-item");
         setItemsData(data);
         console.log(data);
       }

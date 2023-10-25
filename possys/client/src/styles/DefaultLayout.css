@@ -45,3 +45,24 @@
     margin-left: 10px;
   }
   
+.ant-layout-header{
+  line-height:0;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.cart-item{
+  padding-left: 20px;
+  padding-right:10px;
+  cursor: pointer;
+}
+
+
+.p{
+  margin-top: 10px;
+  font-weight: bold;
+  padding-left: 1310px;
+  margin-right: -300px;
+}
